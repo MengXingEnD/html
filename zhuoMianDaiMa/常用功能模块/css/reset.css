@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*浏览器样式重置*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    margin:0;
+    padding:0;
+}
+
+
+.clearfix:after,.clearfix:before{content:"\200B";display:block;height:0;clear:both;}
+.clearfix{ *zoom:1; }
+
+ul li,ol li{list-style:none;}
+
+a{text-decoration:none;}
+
+input,textarea,button,select{outline:none;border:1px solid #ccc;height:30px;font-size:inherit;outline:0;line-height:inherit;color:inherit;font-family:inherit;}
+
+table{border-collapse:collapse;border-spacing:0;}
+
+.tmui-ellipsis,.ellipsis{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+
+h1,h2,h3,h4,h5,h6,em{font-weight:normal;}
+q:before,q:after{content:'';}
+
+fieldset,img,html,body,iframe{border:0;}
+
+::-webkit-scrollbar{width:8px;height:0px;background:#666;}
+::-webkit-scrollbar-button{background-color:#fff;}
+::-webkit-scrollbar-track{background:#666;}
+::-webkit-scrollbar-track-piece{background:#fff}
+::-webkit-scrollbar-thumb{background:#666;}
+::-webkit-scrollbar-corner{background:#82AFFF;}
+::-webkit-scrollbar-resizer{background:#FF0BEE;}
+scrollbar{-moz-appearance:none !important;background:rgb(0,255,0) !important;}
+scrollbarbutton{-moz-appearance:none !important;background-color:rgb(0,0,255) !important;}
+scrollbarbutton:hover{-moz-appearance:none !important;background-color:rgb(255,0,0) !important;}
+/* 闅愯棌涓婁笅绠ご */
+scrollbarbutton{display:none !important;}
+/* 绾靛悜婊氬姩鏉″搴?*/
+scrollbar[orient="vertical"]{min-width:8px !important;}
+/*1366*768 1440*900 div---濡傛灉浣犳槸鐢╢ixed鐨刣iv灞傜殑楂樺害涓€瀹氳鎺у埗鍦細520px浠ュ唴 */
+
+textarea{overflow:auto;resize:none;font-family:inherit;}
+input,select{border:1px solid #ccc;font-family:inherit;}
+button{outline:none;border:0;}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--上手一个前端框架步骤-->
+
+    
+    <!--1、创建一个视图容器-->
+    <div id="app">
+        <p v-text="message"></p>
+        <p>{{message}}{{sex}}</p>
+        <input type="text" v-model="message">
+    </div>
+    
+    <!--2、引入框架-->
+    <script src="https://cdn.bootcss.com/vue/2.5.16/vue.js"></script>
+     <!--3、编写脚本-->
+     <script>
+         
+       var app = new Vue({
+             //挂载视图
+             el: '#app',
+             //定义数据
+             data : {
+                message : '今天下了好大的雨',//这个message是可以自定义的
+                sex : '男'
+
+             }
+         })
+
+     </script>
+</body>
+</html>

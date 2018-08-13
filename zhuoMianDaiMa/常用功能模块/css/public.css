@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+.width1200{width:1200px;margin:0 auto;}
+.width1020{width:1120px;margin:0 auto;}
+.width960{width:960px;margin:0 auto;}
+.width1120{width:1120px;margin:0 auto;}
+.width1150{width:1150px;margin:0 auto;}
+
+
+
+
+.absolute{position:absolute;}
+.relative{position: relative;}
+.fixed{position: fixed;}
+
+.top10{top:10px;}
+.right10{right:10px;}
+.bottom10{bottom:10px;}
+.left10{left:10px;}
+
+.zIdex1{z-index:1;}
+
+.blo{display:block;}
+.inli-blo{display:inline-block;}
+.none{display:none;}
+
+.fl{float:left;}
+.fr{float:right;}
+
+
+.padding-Top10{padding-top:10px;}
+
+.margint-Top10{margin-top:10px;}
+
+.font12{font-size:12px}
+
+.font-W100{font-weight:100px;}
+.font-W200{font-weight:200px;}
+.font-w300{font-weight:300px;}
+.font-w400{font-weight:400px;}
+.font-w500{font-weight:500px;}
+.font-w-Bold{font-weight:bold}
+
+.line-H-24{line-height:24px;}
+
+.col-#666{color:#666;}
+
+.text-align-R{text-align:right;}
+.text-align-C{text-align:center;}
+.text-align-L{text-align:left;}
+
+.Bg-#66{background-color:#666}
+
+.wap-pic{background-image:url(../images/icon.png) no-repeat;}
+.pc-pic{background-image:url(../images/icon.png) no-repeat;}
+
+
+
+
+
+
+/*布局（grid）（.g-）：将页面分割为几个大块，通常有头部、主体、主栏、侧栏、尾部等*/
+.g-container{}
+.g-header{}
+.g-main{}
+.g-sidebar{}
+.g-column{}
+.g-footer{}
+
+
+/*模块（module）（.m-）：通常是一个语义化的可以重复使用的较大的整体！比如导航、登录、注册、各种列表、评论、搜索等*/
+.m-nav{}
+.m-search{}
+
+/*u开头 元件 按钮、输入框、loading、图标等*/
+.u-btn{}
+
+/*S开头 换皮肤，换主色，换背景*/
+.s-color#666{color:#666}
+.s-back#666{background-color:#666;}

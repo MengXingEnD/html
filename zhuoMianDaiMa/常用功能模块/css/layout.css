@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.container{margin:20px;}
+
+.m-title{text-align:center;margin:100px auto 20px;}
+/*hover样式*/
+
+.main-list{width:50%;float:left;}
+
+/*.list-hov-1  start*/
+.list-hov-1 li{float: left;width:39.74%;margin:20px 20px 0 0;}
+.list-hov-1 li .kz_img{position: relative;width:100%;height:240px;overflow: hidden;display:flex;justify-content: center;}
+.list-hov-1 li .kz_img img{opacity: 1; transition: all .3s ease-out;  overflow: hidden; }
+.list-hov-1 li .kz_img i{position: absolute;top: 0;left: 175px;width: 30px;height: 30px;display: block;background: #222;opacity: 0;transition: all .3s ease-out;}
+.list-hov-1 li .kz_img:hover img{opacity: 0.5; transform: scale(1.02,1.02); -webkit-transform: scale(1.02,1.02); }
+.list-hov-1 li .kz_img:hover i{top: 105px; left: 175px; opacity: 1;}
+/*end .list-hov-1*/
+
+
+
+/*.list-hov-2  start*/
+.list-hov-2 li{position:relative;width:39.74%;float: left;margin:20px 20px 0 0;overflow: hidden;}
+.list-hov-2 li img{width:100%;}
+.list-hov-2 li .text{position:absolute;top:0;left:0;width:100%;height:100%;text-align: center;line-height:200px;font-size:16px;color:#fff;background:rgba(0, 0, 0, .8);transition:all .5s;}
+
+.list-hov-2-style1{}
+.list-hov-2-style1:hover .text{opacity: 0.5; transform: scale(1.02,1.02); -webkit-transform: scale(1.02,1.02);transform:rotateX(90deg)}
+.list-hov-2-style2{perspective: 600px;}
+.list-hov-2-style2:hover .text{opacity: 0.5; transform: scale(1.02,1.02); -webkit-transform: scale(1.02,1.02);transform:rotateX(90deg)}
+.list-hov-2-style3{perspective: 600px;}
+.list-hov-2-style3:hover .text{opacity: 0.5; transform: scale(1.02,1.02); -webkit-transform: scale(1.02,1.02);transform:rotateY(90deg)}
+/*end .list-hov-2*/

@@ -1,0 +1,33 @@
+$red:red;
+$border:5;
+$block:block;
+$color:color;
+$border-1px-solid-red:1px solid red;
+$display:display;
+
+.red{
+  $display:block;
+  color:$red;
+  border:$border-1px-solid-red;
+};
+.border{
+  border:solid #{$border}px $red;/*#{$border}px 像素的拼接*/
+  color: $red;
+  display:$block;
+  transform:translate(1)
+};
+
+#content{
+  article{
+    h1{color:$red;}
+    p{margin-bottom:1px;}
+  }
+  aside{background-color:#eee;}
+};
+
+article a{
+  color:$red;
+  &:hover{
+    color:red;
+  }
+}
